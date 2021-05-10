@@ -6,7 +6,7 @@ public final class Benchmark {
 
     private Benchmark() {}
 
-    public static void BenchmarkQuickSort(ArrayList<Integer> values) {
+    public static void quickSort(ArrayList<Integer> values) {
         double benchmark = System.currentTimeMillis();
         Quicksort.sort(values);
         benchmark = System.currentTimeMillis() - benchmark;

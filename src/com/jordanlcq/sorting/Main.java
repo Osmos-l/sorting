@@ -23,6 +23,6 @@ public class Main {
         for (int i = 0; i < ARRAY_SIZE; i++) {
             toSort.add(random.nextInt(MAX_INTEGER));
         }
-        Benchmark.BenchmarkQuickSort(toSort);
+        Benchmark.quickSort(toSort);
     }
 }
